@@ -1,0 +1,76 @@
+/*CSS file for light Mode*/
+
+table {
+    background-color: grey;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.display {
+    background-color: white;
+    width: 190px;
+    height: 43px;
+    border: 1px;
+    margin-bottom: 3px;
+    border-radius: 6px;
+    font-size: 2rem;
+    text-align: right;
+    color: black;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: lightskyblue;
+    border-radius: 10%;
+    border: 10px solid lightskyblue;
+    padding: 10px;
+    width: 57.36px;
+    height: 58px;
+}
+
+button[class="operator"] {
+    background-color: orange;
+    border-radius: 10%;
+    border: 10px solid orange;
+    padding: 12px;
+    margin-left: 12%;
+    width: 58.02px;
+    height: 58px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    border-color: white;
+}
+
+button[value="C"] {
+    margin-left: -2px;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+button[value="="] {
+    background-color: yellow;
+    border-radius: 10%;
+    border: 10px solid yellow;
+    padding: 12px;
+    height: 48px;
+}
+
+button[value="="]:hover {
+    cursor: pointer;
+    background-color: white;
+    border-color: white;
+}
+
+button:active {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+button[value="="]:active {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}

@@ -1,0 +1,98 @@
+/*CSS file for dark Mode*/
+
+table {
+    background-color: black;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.display {
+    background-color: white;
+    width: 190px;
+    height: 43px;
+    border: 1px;
+    margin-bottom: 3px;
+    border-radius: 6px;
+    font-size: 2rem;
+    text-align: right;
+    color: black;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: aqua;
+    border-radius: 10%;
+    border: 10px solid aqua;
+    padding: 10px;
+    width: 57.36px;
+    height: 58px;
+}
+
+button[class="operator"] {
+    background-color: darkorange;
+    border-radius: 10%;
+    border: 10px solid darkorange;
+    padding: 12px;
+    margin-left: 12%;
+    width: 58.02px;
+    height: 58px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    border-color: white;
+}
+
+button[value="C"] {
+    margin-left: -2px;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+button[value="="] {
+    background-color: #fbff00;
+    border-radius: 10%;
+    border: 10px solid #fbff00;
+    padding: 12px;
+    height: 48px;
+}
+
+button[value="="]:hover {
+    cursor: pointer;
+    background-color: white;
+    border-color: white;
+}
+
+button:active {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+button[value="="]:active {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+button[class="dm"] {
+    background-color: black;
+    border-color: black;
+    color: white;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-right: 3px;
+}
+
+button[id="theme"] {
+    background-color: white;
+    border-color: white;
+    color: yellow;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-right: 3px;
+}

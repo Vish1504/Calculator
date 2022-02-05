@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,
+initial-scale=1" />
+    <link rel="stylesheet" href="calculator.css" id="theme" />
+</head>
+
+<body>
+    <div class="maincalc">
+        <table class="calculator">
+            <tr class="row1">
+                <td colspan="3">
+                    <input type="text" name="result" class="display" id="result" value="" disabled />
+                </td>
+                <td>
+                    <button class="operator" value="=" id="clear">=</button type="">
+</td>
+</tr>
+<div class="keys">
+<tr>
+<td><button value="7">7</button>
+                </td>
+                <td><button value="8">8</button></td>
+                <td><button value="9">9</button></td>
+                <td><button value="+" class="operator">+</button></td>
+            </tr>
+            <tr>
+                <td><button value="4">4</button></td>
+                <td><button value="5">5</button></td>
+                <td><button value="6">6</button></td>
+                <td><button value="-" class="operator">-</button></td>
+            </tr>
+            <tr>
+                <td><button value="1">1</button></td>
+                <td><button value="2">2</button></td>
+                <td><button value="3">3</button></td>
+                <td><button value="*" class="operator">*</button></td>
+            </tr>
+            <tr>
+                <td><button value=".">.</button></td>
+                <td><button value="0">0</button></td>
+                <td><button value="C" class="operator">C</button>
+                </td>
+                <td><button value="/" class="operator">/</button></td>
+            </tr>
+    </div>
+    <tr>
+        <td colspan="4">
+            <class="bottom-buttons">
+                <input type="button" onclick="changeTheme()" id="dark-mode" value="Change Display" class="dm" style="background-color:antiquewhite;border-color: antiquewhite;
+color: black;height: 38px; border-radius: 8px;border: 10px;width:
+267px;font-size: 16px;font-family:Verdana, Geneva, Tahoma,
+sans-serif;font-weight: bold;margin-top: 14px;margin-right: 3px;">
+        </td>
+        </div>
+    </tr>
+    </table>
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+
+</html>
